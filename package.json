@@ -1,0 +1,36 @@
+{
+  "name": "proj-check",
+  "version": "0.2.0",
+  "description": "项目自动化检查",
+  "main": "./lib/check.js",
+  "bin": "./bin/check.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chyingp/proj-check.git"
+  },
+  "keywords": [
+    "npm script"
+  ],
+  "author": {
+    "name": "casperchen"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chyingp/proj-check/issues"
+  },
+  "homepage": "https://github.com/chyingp/proj-check#readme",
+  "dependencies": {
+    "glob": "7.1.5"
+  },
+  "devDependencies": {
+    "babel-core": "6.26.3",
+    "babel-preset-env": "1.7.0",
+    "babel-register": "6.26.0"
+  }
+}
